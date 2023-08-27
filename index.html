@@ -3,7 +3,7 @@
 <html>
   <head>
     <title>Portfolio</title>
-    <link rel="stylesheet" href="src/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -13,16 +13,28 @@
       <nav>
         <div>LOGO</div>
         <ul>
-          <li>About me</li>
-          <li>Projects</li>
-          <li>Contacts</li>
+          <li><a href="">About Me</a></li>
+          <li><a href="">Projects</a></li>
+          <li><a href="">Contacts</a></li>
         </ul>
       </nav>
       <div class="hero-area">
         <div class="hero-text">
-          <h1>Giancarlo Rios</h1>
+          <div class="typewriter">
+          <h1 class="type-text">Giancarlo Rios</h1>
+          </div>
           <p>Front End Developer</p>
-          <div class="button">About me</div>
+          <div class="container">
+            <div class="center">
+              <button class="btn">
+                <span>About Me</span>
+                  <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                      <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                      <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                  </svg>
+              </button>
+            </div>
+          </div>
        </div>
        <div class="socials">
           <div><a href="https://twitter.com/GianTheRios" class="social">
@@ -43,11 +55,32 @@
             <h2>About Me</h2>
             <p>Hello, My name is Giancarlo, I am a Marketing Director looking to grow my skillsets and learn to code.</p>
         </div>
-        <div class="headshot" SRC="src/images/ruto.jpeg" alt="Giancarlo Rios Headshot"></div>
+        <img class="headshot" src="/images/ruto_2.png" alt="Giancarlo Rios Headshot">
     </section>
-    <section class="sub-section"></section>
+    <section class="proj-section">
+        <div class="projects">
+            <div class="proj-title"><h2>Projects</h2></div>
+            <div class="proj-container">
+                <div class="proj-card">
+                    <img src="/images/Project_1.png" alt="Project 1">
+                    <div>Project 1</div>
+                    <div>Project 1 Description</div>
+                </div>
+                <div class="proj-card">
+                    <img src="/images/Project_2.png" alt="Project 2">
+                    <div>Project 2</div>
+                    <div>Project 2 Description</div>
+                </div>
+                <div class="proj-card">
+                    <img src="/images/Project_3.png" alt="Project 3">
+                    <div>Project 3</div>
+                    <div>Project 3 Description</div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer></footer>
     
-    <script src="src/app.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
