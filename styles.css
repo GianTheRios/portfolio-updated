@@ -1,3 +1,7 @@
+html, body {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Roboto Mono', monospace, sans-serif;
 }
@@ -5,7 +9,7 @@ body {
 section {
   height: 500px;
   background-color: white;
-  border: solid black px;
+  border: solid black;
 }
 
 .hero {
@@ -203,7 +207,7 @@ img.headshot:hover{
 }
 
 .proj-section, .projects {
-  height: 500px;
+  height: 700px;
   background-color: #1c1d25;
   font: white;
 
@@ -218,7 +222,7 @@ img.headshot:hover{
 
 .proj-card {
   width: 350px;
-  height: 300px;
+  height: 400px;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
