@@ -74,6 +74,12 @@ h1 {
   margin: 0;
 }
 
+.information {
+  margin-top: 90px;
+  height: 500px;
+  color: black;
+}
+
 h2 {
   font-size: 50px;
 }
@@ -182,6 +188,7 @@ svg {
   display: flex;
   justify-content: space-around;
   padding: 80px;
+  align-items: center;
 }
 
 img.headshot:hover{
@@ -195,7 +202,6 @@ img.headshot:hover{
   height: 300px;
   border-radius: 50%;
   border: solid black 5px;
-  /* transform: rotate(360deg) */
 }
 
 .proj-title {
