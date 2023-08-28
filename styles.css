@@ -132,11 +132,11 @@ svg {
   background: coral;
 }
 
-/* .btn:hover svg {
+.btn:hover svg {
   stroke-dashoffset: -480;
-} */
+}
 
-.btn span {
+.btn span, svg {
   color: white;
   font-size: 18px;
   font-weight: 100;
@@ -174,7 +174,6 @@ svg {
 
 .social {
   margin: 10px ;
-  ;
   
 }
 
@@ -240,12 +239,4 @@ img.headshot:hover{
   transition: 0.3s;
 }
 
-/* .btn {
-  width: 180px;
-  height: 60px;
-  cursor: pointer;
-  background: transparent;
-  border: 1px solid coral;
-  outline: none;
-  transition: 1s ease-in-out;
-} */
+
